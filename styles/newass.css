@@ -14,10 +14,6 @@
     /* height: px; */
 }
 
-.front-page {
-    /* text-align: right; */
-
-}
 
 .title {
     padding: 216px 150px 24px 1300px;
@@ -90,13 +86,18 @@ ul {
     color: #151414;
 }
 
+.plans {
+    /* max-width: 1140px;  */
+    margin-bottom: 50px;
+}
+
 .plan-container {
     display: flex;
     gap: 20px;
     margin-top: 20px;
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 0px 550px;
+    padding: 0px 500px;
     /* text-align: left; */
 }
 
@@ -113,4 +114,106 @@ ul {
     /* line-height: 29px; */
     text-align: center;
     color: #737272;
+}
+
+.advice {
+    margin: 100px 250px;
+    /*max-width: 1140px;
+     margin: 0px auto;*/
+}
+
+.adv-title {
+    padding: 60px 700px 0px 70px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.advice-item {
+    margin: 100px 100px;
+    /* background-image: url(../images/watch.png); */
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+}
+
+.adv-btn-primary {
+    padding: 15px 50px;
+    margin: 24px 880px 45px 70px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 16px;
+    /* width: 160px; */
+    height: 62px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.ending {
+    margin: 50px 20px;
+    display: flex;
+    gap: 50px;
+    background: #151414;
+    background-size: cover;
+    padding: 130px 250px;
+    text-align: left;
+}
+
+.end-info {
+    /* margin: 100px auto; */
+}
+
+.end-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.end-desc {
+    margin-top: 18px;
+    margin-right: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.e,p {
+    font-weight: 450;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+
+}
+
+.ending-two{
+    margin-right: 200px;
+}
+
+.etwo-info {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.ending input[type="email"]{
+    /* margin-bottom: 24px; */
+    /* border: 0; */
+    color: aliceblue;
+    width: 100%;
+    padding :18px 30px ;
+    background-color: #151414;
+    border-radius: 5px;
+}
+
+.etwo-btn {
+    margin-top: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    background: #005FAC;
+    border-radius: 8px;
+    height: 64px;
+    padding: 5px 15px;
 }
